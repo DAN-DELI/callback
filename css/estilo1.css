@@ -1,0 +1,30 @@
+/* ESTILO DEL INDEX.HTML */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: none;
+    background-color: rgba(202, 207, 135, 0.973);
+    border-radius: 0 0 15px 15px;
+}
+
+.portada {
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Tabla de ejercicios */
+
+.ejercicios {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; padding: 10px;
+    width: 200px;
+}
+
