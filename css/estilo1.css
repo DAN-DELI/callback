@@ -77,17 +77,13 @@ body {
     margin: 20px;
     padding: 10px;
     width: 330px;
-    height: 234px;
+    height: 210px;
     border: 2px solid var(--color-bordes);
     border-radius: 15px;
     background-color: var(--color-tarjetas);
     box-shadow: 0 0 12px #5a7ba64c;
 }
 
-p {
-    margin-right: 10px;
-    margin-left: 10px;
-}
 
 
  /* ===== PARRAFO DE LAS CARDS ===== */
@@ -101,6 +97,7 @@ p {
  /* ========== LINK DE LOS HTML ========== */
 .ejercicios__enlace {
     background-color: #66A3FF;
+    margin-bottom: 9px;
     padding: 20px;
     border-radius: 15px;
     color: white;
