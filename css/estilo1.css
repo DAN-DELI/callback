@@ -1,30 +1,116 @@
-/* ESTILO DEL INDEX.HTML */
+/* ===== PALETA ===== */
+:root {
+    --color-fondo-general: #0B1E39;
+    --color-titulo: #E1ECFF;
+
+    --color--fondo--tarjetas: #0D2344; /* fondo área grande */
+    --color-tarjetas: #D9E6F6;
+    --color-bordes: #5A7BA6;
+}
+
+/* ===== TU CSS SIN CAMBIAR MEDIDAS ===== */
 
 body {
     margin: 0;
     padding: 0;
+    background-color: var(--color-fondo-general);
 }
 
+
+ /* ========== PORTADA ========== */
 .portada {
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: none;
-    background-color: rgba(202, 207, 135, 0.973);
+    background-color: #001433;
     border-radius: 0 0 15px 15px;
 }
 
+.portada--shadow {
+    border: 0.5px solid rgba(255, 255, 255, 0.119);
+}
+
+    /* PORTADA  */
 .portada {
-    color: #000000;
+    color: var(--color-titulo);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* Tabla de ejercicios */
-
-.ejercicios {
-    display: flex;
-    flex-direction: column;
-    margin: 20px; padding: 10px;
-    width: 200px;
+.portada h1 {
+    margin-top: 40px; margin-bottom: -9px;
+    font-size: 35px;
 }
 
+.portada h2 {
+    font-size: 20px;
+}
+
+.portada--parrafo {
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 20px;
+}
+
+/* Tabla de ejercicios */
+.ejercicios {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color--fondo--tarjetas);
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ejercicios__titulo {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+}
+
+.ejercicios--tabla {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distribuye título, texto, botón */
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    width: 330px;
+    height: 234px;
+    border: 2px solid var(--color-bordes);
+    border-radius: 15px;
+    background-color: var(--color-tarjetas);
+    box-shadow: 0 0 12px #5a7ba64c;
+}
+
+p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+ /* ===== PARRAFO DE LAS CARDS ===== */
+.ejercicios__descripcion {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+
+
+ /* ========== LINK DE LOS HTML ========== */
+.ejercicios__enlace {
+    background-color: #66A3FF;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    color: #000E24;
+    font-weight: bold;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.ejercicios__enlace:hover {
+    background-color: #000E24;
+    color: #66A3FF
+}
