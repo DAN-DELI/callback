@@ -1,52 +1,54 @@
-// FUNCION EJERCICIO 2
+// ---------------------------------------------------------------
+//                          FUNCION 2 
+// ---------------------------------------------------------------
 
+
+// Funcion encargada de resibir los movimientos realizados y calcular el estado del inventario
 export function calcularInventario() {
-    let inicial, vendida, recibida, confInicial, confVendida, confRecibida;
-    confInicial = undefined;
-    confVendida = undefined;
-    confRecibida = undefined;
+    let inicial, vendida, recibida;
+    let confInicial, confVendida, confRecibida;
 
     while (true) {
 
-        if (confInicial == undefined){
+        if (confInicial == undefined) {
             inicial = parseInt(prompt("Ingrese la cantidad inicial:"));
             if (isNaN(inicial)) {
                 alert("Error: La cantidad inicial debe ser un número.");
-                continue; // vuelve a pedir los datos
+                continue;
             } else {
                 confInicial = inicial;
             }
         }
 
-        if (confVendida == undefined){
+        if (confVendida == undefined) {
             vendida = parseInt(prompt("Ingrese la cantidad vendida:"));
             if (isNaN(vendida)) {
                 alert("Error: La cantidad vendida debe ser un número.");
-                continue; // vuelve a pedir los datos
+                continue;
             } else {
                 confVendida = vendida;
             }
         }
 
-        if (confRecibida == undefined){
+        if (confRecibida == undefined) {
             recibida = parseInt(prompt("Ingrese la cantidad recibida:"));
             if (isNaN(recibida)) {
                 alert("Error: La cantidad recibida debe ser un número.");
-                continue; // vuelve a pedir los datos
+                continue;
             } else {
                 confRecibida = recibida;
             }
         }
 
-        // Si todo está correcto, salir del ciclo
-        break;
+        break; // cuando ya todo está validado
     }
 
     const inventarioFinal = inicial - vendida + recibida;
-    let estado = inventarioFinal < 5 ? "Inventario insuficiente" : "Inventario suficiente";
 
-    return {
-        inventarioFinal,
-        estado
-    };
+    // Texto indicando el estado del inventario
+    const estado = inventarioFinal < 5 ? "Inventario crítico" : "Inventario estable";
+
+    // Retornamos la cantidad del inventario final junto al estado de este
+    return { inventarioFinal, estado };
 }
+

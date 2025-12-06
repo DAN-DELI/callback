@@ -1,7 +1,19 @@
-// EJERCICIO 5
+// ---------------------------------------------------------------
+//                          EJERCICIO 5 
+// ---------------------------------------------------------------
 
-let nombreUser = prompt("Ingrese su nombre de usuario:");
-let estadoUser = prompt("Ingrese su estado (activo/inactivo):");
-let rolUser = prompt("Ingrese su rol (admin/editor/lector):");
+import { validarUsuario } from "../modulo/index.js";
 
-validarUsuario(nombre, estado, rol) 
+console.log("===== EJERCICIO 5 =====");
+
+const resultado = validarUsuario();
+
+console.log(`Usuario: ${resultado.nombre}`);
+console.log(`Acceso: ${resultado.acceso}`);
+console.log(`Permisos: ${resultado.permisos}`);
+
+alert(
+    `Usuario: ${resultado.nombre}\n` +
+    `Acceso: ${resultado.acceso}\n` +
+    `Permisos: ${resultado.permisos}`
+);

@@ -1,8 +1,10 @@
-// EJERCICIO 4
+// ---------------------------------------------------------------
+//                          EJERCICIO 4 
+// ---------------------------------------------------------------
 
 import { calcularProductos } from "../modulo/funcion4.js";
 
-console.log("                                           ===== EJERCICIO 4 =====");
+console.log("===== EJERCICIO 4 =====");
 
 let numeroProductos = parseInt(prompt("Ingrese la cantidad de productos a evaluar:"));
 

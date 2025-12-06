@@ -1,5 +1,8 @@
-// FUNCION EJERCICIO 3
+// ---------------------------------------------------------------
+//                          FUNCION 3 
+// ---------------------------------------------------------------
 
+// Funcion que obtiene notas y calcula el promedio junto a el rendimiento presentado
 export function calcularPromedio(numeroNotas) {
     let notas = [];
 
@@ -15,7 +18,7 @@ export function calcularPromedio(numeroNotas) {
     let rendimiento;
         if (promedio >= 4) {
         rendimiento = "Alto";
-        } else if (promedio > 2.5 && promedio <= 4) {
+        } else if (promedio > 2.5 && promedio <= 3.99) {
         rendimiento = "Medio";
         } else {
          rendimiento = "Bajo";

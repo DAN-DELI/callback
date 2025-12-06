@@ -1,5 +1,8 @@
-// FUNCION EJERCICIO 4
+// ---------------------------------------------------------------
+//                          FUNCION 4 
+// ---------------------------------------------------------------
 
+// Funcion que obtiene un objeto y ordena de mayor a menor
 export function calcularProductos(numeroProductos) {
     let productos = [];
 
