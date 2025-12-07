@@ -23,7 +23,7 @@ export function fusionarUsuarios(listaA, listaB) {
 
             if (propsNuevo > propsActual) {
                 usuariosPorDocumento[doc] = nuevo;
-            }
+            } 
         }
     });
 

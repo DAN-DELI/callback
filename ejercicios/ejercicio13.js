@@ -21,7 +21,7 @@ if (reporte.alertas.length > 0) {
 }
 
 alert(
-  `Reporte financiero:\n` +
+  `Reporte financiero:\n` + 
   `Número base considerado: $${reporte.numeroBase}\n` +
   `Umbral (40%): $${reporte.umbral}\n` +
   `Total gastado: $${reporte.total}\n` +

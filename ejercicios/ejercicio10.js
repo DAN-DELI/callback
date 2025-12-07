@@ -29,7 +29,7 @@ alert(
 );
 
 // Fusionar datos
-const resultado = fusionarUsuarios(listaA, listaB);
+const resultado = fusionarUsuarios(listaA, listaB); 
 
 // Mostrar resultado final
 console.log("Lista final fusionada:", resultado);

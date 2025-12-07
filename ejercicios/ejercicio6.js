@@ -17,3 +17,4 @@ alert(
     `Deducciones: ${resultado.totalDeducciones}\n` +
     `Salario neto: ${resultado.salarioNeto}`
 );
+ 

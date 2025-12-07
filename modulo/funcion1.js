@@ -20,7 +20,7 @@ export function agregaEstudiantesCurso(cantidadAprendiz) {
 }
 
 
-// 2. Función que permite buscar aprendices repetidamente
+// 2. Función que permite buscar aprendices repetidamente 
 export function validaAprendizInscrito(aprendicesInscritos) {
 
     while (true) {

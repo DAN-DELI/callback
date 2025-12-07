@@ -18,3 +18,4 @@ alert(
   `Edad: ${resultado.edad}\n` +
   `Prioridad: ${resultado.prioridad}`
 );
+ 

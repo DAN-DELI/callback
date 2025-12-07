@@ -13,7 +13,7 @@ export function calcularPromedio(numeroNotas) {
     // Usamos reduce para sumar todas las notas
     const suma = notas.reduce((acc, val) => acc + val, 0);
 
-    const promedio = suma / numeroNotas;
+    const promedio = suma / numeroNotas; 
     
     let rendimiento;
         if (promedio >= 4) {

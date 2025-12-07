@@ -31,7 +31,7 @@ let opcion = prompt(
     "3. Aprobar si fue pagado antes o en la fecha límite"
 );
 
-let callbackSeleccionado;
+let callbackSeleccionado; 
 
 switch (opcion) {
     case "1":

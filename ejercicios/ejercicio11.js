@@ -18,3 +18,4 @@ alert(
   `Contenido breve: ${resultado.contenidoBreve}\n` +
   `Fecha: ${resultado.fecha}`
 );
+  

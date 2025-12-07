@@ -31,7 +31,7 @@ function reglaEvaluacion(proyecto) {
   } else {
     return "Proyecto estable";
   }
-}
+} 
 
 // Ejecutar análisis
 const informe = analizarProyectos(proyectos, reglaEvaluacion);

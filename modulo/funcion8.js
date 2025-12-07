@@ -17,7 +17,7 @@ export function filtrarPorCategoria(categoriaBuscada) {
 
 // Callback: busca por duración mínima
 export function filtrarPorDuracion(minimo) {
-    return function(curso) {
+    return function(curso) { 
         return curso.duracion >= minimo;
     }
 }

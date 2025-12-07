@@ -20,7 +20,7 @@ export function calcularDeducciones(salarioBase) {
 
 
 // 3. funcion para hallar el salario neto
-export function calcularNeto() {
+export function calcularNeto() { 
 
     // Solicitar datos al usuario
     let valorHora = parseFloat(prompt("Ingrese el valor por hora:"));

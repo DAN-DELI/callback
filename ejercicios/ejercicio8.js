@@ -29,7 +29,7 @@ let opcion = prompt(
     "3. Por coincidencia en el nombre"
 );
 
-// Variable donde pondremos el callback a usar
+// Variable donde pondremos el callback a usar 
 let callback;
 
 switch (opcion) {

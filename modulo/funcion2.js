@@ -15,7 +15,7 @@ export function calcularInventario() {
             if (isNaN(inicial)) {
                 alert("Error: La cantidad inicial debe ser un número.");
                 continue;
-            } else {
+            } else { 
                 confInicial = inicial;
             }
         }

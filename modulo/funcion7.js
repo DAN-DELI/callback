@@ -14,3 +14,4 @@ export function registrarProductos(...productos) {
     return unicos;
 }
 
+ 

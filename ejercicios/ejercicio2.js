@@ -10,3 +10,4 @@ const resultado = calcularInventario();
 
 console.log(`Inventario final: ${resultado.inventarioFinal} \nEstado: ${resultado.estado}`);
 alert(`Inventario final: ${resultado.inventarioFinal} \nEstado: ${resultado.estado}`);
+ 

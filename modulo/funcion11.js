@@ -18,8 +18,8 @@ export function generarResumen() {
 
   // Construir resumen (contenido breve = primeros 20 caracteres)
   let resumen = {
-    remitente: r,
-    contenidoBreve: c.substring(0, 20) + (c.length > 20 ? "..." : ""),
+    remitente: r, 
+    contenidoBreve: c.substring(0, 20) + (c.length > 20 ? "..." : ""), 
     fecha: f
   };
 

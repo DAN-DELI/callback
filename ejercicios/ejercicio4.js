@@ -19,3 +19,4 @@ alert(
     "Producto más caro: " + resultadoProductos.mayorValor.producto + " ($" + resultadoProductos.mayorValor.valor + ")\n" +
     "Producto más barato: " + resultadoProductos.menorValor.producto + " ($" + resultadoProductos.menorValor.valor + ")"
 );
+ 

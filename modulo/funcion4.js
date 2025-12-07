@@ -18,7 +18,7 @@ export function calcularProductos(numeroProductos) {
     const mayorValor = productos[0];
     const menorValor = productos[productos.length - 1];
 
-
+ 
     return {
         mayorValor,
         menorValor,

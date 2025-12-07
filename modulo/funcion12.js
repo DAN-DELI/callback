@@ -18,7 +18,7 @@ export function seleccionarPaciente() {
   // Arreglo para almacenar pacientes
   let pacientes = [];
 
-  // Capturar datos de cada paciente
+  // Capturar datos de cada paciente 
   for (let i = 0; i < cantidad; i++) {
     let nombre = prompt(`Ingrese el nombre del paciente ${i + 1}:`).trim();
     let edad = parseInt(prompt(`Ingrese la edad de ${nombre}:`));

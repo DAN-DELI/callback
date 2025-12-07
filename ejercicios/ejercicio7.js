@@ -21,3 +21,4 @@ const listaFinal = registrarProductos(...productos);
 
 console.log("Productos sin duplicados:", listaFinal);
 alert("Productos sin duplicados:\n" + listaFinal.join(", "));
+ 

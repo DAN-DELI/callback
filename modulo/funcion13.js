@@ -21,7 +21,7 @@ export function analizarGastos() {
 
   // Arreglo para almacenar los gastos
   let gastos = [];
-
+ 
   // Capturar datos de cada gasto
   for (let i = 0; i < cantidad; i++) {
     let categoria = prompt(`Ingrese la categoría del gasto ${i + 1}:`).trim();

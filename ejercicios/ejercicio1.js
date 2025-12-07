@@ -10,3 +10,4 @@ const cantidad = parseInt(prompt("¿Cuantos estudiantes desea registrar?"));
 const lista = agregaEstudiantesCurso(cantidad);
 
 validaAprendizInscrito(lista);
+ 

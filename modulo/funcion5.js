@@ -15,7 +15,7 @@ export function validarUsuario() {
 
     // Validación del estado del usuario
     if (estado !== "activo") {
-        return {
+        return { 
             nombre,
             acceso: "denegado",
             permisos: "Ninguno. El usuario está inactivo."

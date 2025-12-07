@@ -17,3 +17,4 @@ alert(
     `Acceso: ${resultado.acceso}\n` +
     `Permisos: ${resultado.permisos}`
 );
+ 

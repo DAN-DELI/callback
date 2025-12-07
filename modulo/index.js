@@ -13,3 +13,4 @@ export { seleccionarPaciente } from './funcion12.js';
 export { analizarGastos } from './funcion13.js';
 export { analizarProyectos } from './funcion14.js';
 export { recomendarCursos } from './funcion15.js';
+ 

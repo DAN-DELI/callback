@@ -18,7 +18,7 @@ export function aprobarPorMonto(pago) {
 
 // Callback: aprueba solo si el método es "tarjeta"
 export function aprobarPorMetodo(pago) {
-    return pago.metodo.toLowerCase() === "tarjeta";
+    return pago.metodo.toLowerCase() === "tarjeta"; 
 }
 
 // Callback: aprueba si el pago fue hecho a tiempo (fecha <= fecha límite)
