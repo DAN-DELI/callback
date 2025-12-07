@@ -8,3 +8,8 @@ export { registrarProductos } from './funcion7.js';
 export { buscarCursos, filtrarPorCategoria, filtrarPorDuracion, filtrarPorNombre } from './funcion8.js';
 export { procesarPagos, aprobarPorMonto, aprobarPorMetodo, aprobarPorFecha } from './funcion9.js';
 export { fusionarUsuarios } from "./funcion10.js";
+export { generarResumen } from './funcion11.js'
+export { seleccionarPaciente } from './funcion12.js';
+export { analizarGastos } from './funcion13.js';
+export { analizarProyectos } from './funcion14.js';
+export { recomendarCursos } from './funcion15.js';

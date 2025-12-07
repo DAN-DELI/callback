@@ -1,4 +1,6 @@
-// EJERCICIO 9
+// ---------------------------------------------------------------
+//                          EJERCICIO 9
+// ---------------------------------------------------------------
 
 import { procesarPagos, aprobarPorMonto, aprobarPorMetodo, aprobarPorFecha } from "../modulo/index.js";
 

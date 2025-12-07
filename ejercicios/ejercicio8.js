@@ -1,4 +1,6 @@
-// EJERCICIO 8
+// ---------------------------------------------------------------
+//                          EJERCICIO 8 
+// ---------------------------------------------------------------
 
 import { buscarCursos, filtrarPorCategoria, filtrarPorDuracion, filtrarPorNombre } from "../modulo/index.js";
 
